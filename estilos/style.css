@@ -1,0 +1,102 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(63, 57, 57);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+header{
+    width: 100vw;
+    height: 18vh;
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    position:fixed;
+}
+button{
+    border: none;
+    border-style: none;
+    background: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.titulo-encabezado h1{
+    font-size: 2.5rem;
+    background: -webkit-repeating-linear-gradient(rgb(64, 130, 235), rgb(255, 15, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 7vh;
+}
+
+.enlaces-encabezado{
+    padding-top: 10vh;
+    padding-left: 3vw;
+}
+
+#btn-repositorio, #bomba{
+    padding-left: 3vw;
+}
+/* Modificando los iconos de Font Awesome*/
+.fa-file-pdf{
+    background: -webkit-repeating-linear-gradient(rgb(64, 130, 235), rgb(255, 15, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4rem;
+}
+.fa-square-github{
+    background: -webkit-repeating-linear-gradient(rgb(64, 130, 235), rgb(255, 15, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4rem;
+    transform: translateY(2px);
+}
+.fa-bomb{
+    font-size: 2rem;
+    color: rgb(127, 109, 109);
+    cursor: pointer;
+}
+/*--------------------------------------*/
+#lorem-img{
+    max-width: 100%;
+    width: 100vw;
+    max-height: 100%;
+    height: 500px;
+    padding-bottom: 10vh;
+}
+#pdf-ejercicios{
+    margin-left: 15vw;
+    padding-top: 50px;
+    max-height: 100%;
+    height: 700px;
+}
+#change{
+    border: 3px;
+    border-style: groove;
+    border-color: gold;
+    background-color: rgb(74, 29, 70);
+    color: azure;
+    font-size: 1rem;
+}
+
+.lorem-div a{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.lista-random{
+    margin-left: 30vw;
+}
+
+.naranja{
+    color: darkorange;
+}
